@@ -1,2 +1,3 @@
 # Java-Stream-Interview-QuestionWithAnswers
-create a stream from a collection in Java 8
+1. create a stream from a collection in Java 8
+2. How do you create a stream from an array?
