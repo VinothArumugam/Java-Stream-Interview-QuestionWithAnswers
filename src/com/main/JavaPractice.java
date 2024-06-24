@@ -9,7 +9,12 @@ public class JavaPractice {
 		
 		int[] intArray = {1, 2, 3, 4, 5};
 		
-		// How do you create a stream from an array? 
+		//1. create a stream from a collection in Java 8
+		
+			List<Integer> asList = Arrays.asList(1, 2, 3, 4);
+			Stream<Integer> stream = asList.stream();
+		
+		// 2. How do you create a stream from an array? 
 			Arrays.stream(intArray);
 			Stream.of(intArray);
 	}
