@@ -17,10 +17,12 @@ public class JavaPractice {
 			Stream<Integer> stream = asList.stream();
 		
 		// 2. How do you create a stream from an array? 
+			
 			Arrays.stream(intArray);
 			Stream.of(intArray);
 			
 		// 3. How do you convert a Stream to a List?
+			
 			List<Integer> collect = stream.collect(Collectors.toList());
 			
 	}
