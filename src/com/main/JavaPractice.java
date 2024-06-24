@@ -1,6 +1,8 @@
 package com.main;
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class JavaPractice {
@@ -17,6 +19,10 @@ public class JavaPractice {
 		// 2. How do you create a stream from an array? 
 			Arrays.stream(intArray);
 			Stream.of(intArray);
+			
+		// 3. How do you convert a Stream to a List?
+			List<Integer> collect = stream.collect(Collectors.toList());
+			
 	}
 
 }
